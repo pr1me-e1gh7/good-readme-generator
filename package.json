@@ -1,0 +1,24 @@
+{
+  "name": "good-readme-generator",
+  "version": "1.0.0",
+  "description": "Hate spending time making READMEs for your repos? No problem ## 👨‍💻 Mission Use Node.js to help user's create readme files for their coding projects.",
+  "main": "generator.js",
+  "scripts": {
+    "start": "node generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pr1me-e1gh7/good-readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pr1me-e1gh7/good-readme-generator/issues"
+  },
+  "homepage": "https://github.com/pr1me-e1gh7/good-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
