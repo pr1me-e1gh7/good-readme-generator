@@ -58,18 +58,21 @@ inquirer.prompt(
             validate: (value)=>{ if(value){return true} else {return 'I need a value to continue'}},
         },
         // Questions (Contact info)
+        // Github info
         {
             type: "input",
             message: "Please enter your GitHub username:",
             name: "entryGithub",
             validate: (value)=>{ if(value){return true} else {return 'I need a value to continue'}},
         },
+        // LinkedIn address
         {
             type: "input",
             message: "Please enter your LinkedIn /in/ address:",
             name: "entryLinkedIn",
             validate: (value)=>{ if(value){return true} else {return 'I need a value to continue'}},
         },
+        // Email info
         {
             type: "input",
             message: "Please enter your email address:",
@@ -145,7 +148,7 @@ fetchLicense = (entryLicense) => {
 
     switch (entryLicense) {
         case 'Apache License 2.0':
-            badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+            badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
             break;
         case 'GNU General Public License v3.0':
             badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
@@ -182,6 +185,9 @@ fetchLicense = (entryLicense) => {
             break;
         case 'The Unlicense':
             badge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)';
+            break;
+        case 'N/A':
+            badge = '[![License: None](https://img.shields.io/badge/license-none-yellow.svg)](http://fakeurl.com/)';
             break;
 
         default:
