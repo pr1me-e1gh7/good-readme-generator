@@ -10,6 +10,8 @@ To use the generator, follow these steps:
 4. Run ``npm start``
 5. Answer the questions
 6. Your README will generate in the ``YourREADMEs`` folder
+A full walkthrough is shown below in the preview section of this readme.
+
 ## 🏁 Challenge Criteria
 ```md
 GIVEN a command-line application that accepts user input
@@ -29,4 +31,5 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 ## 🎨 Preview
-<img src="./generator-preview.gif"/>
+https://user-images.githubusercontent.com/92904832/156897268-343370f4-c753-48f6-8bed-3b071a8b09b3.mp4
+
