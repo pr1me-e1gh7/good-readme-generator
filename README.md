@@ -3,6 +3,7 @@ Hate spending time making READMEs for your repos? No problem
 ## 👨‍💻 Mission
 Use Node.js to help user's create readme files for their coding projects.
 ## 💻 User Experience
+A full walkthrough is shown below in the preview section of this readme.
 To use the generator, follow these steps:
 1. Fork this repo, download it to your PC
 2. Open the folder directory in your terminal
@@ -10,7 +11,6 @@ To use the generator, follow these steps:
 4. Run ``npm start``
 5. Answer the questions
 6. Your README will generate in the ``YourREADMEs`` folder
-A full walkthrough is shown below in the preview section of this readme.
 
 ## 🏁 Challenge Criteria
 ```md
